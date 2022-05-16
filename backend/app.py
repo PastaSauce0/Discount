@@ -6,7 +6,7 @@ from flask import request
 import json
 from bson.json_util import dumps
 
-client = MongoClient("mongodb+srv://admin:9173PACMx9173@cluster0.nknoe.mongodb.net/Cluster0?retryWrites=true&w=majority", tlsCAFile=certifi.where())
+client = MongoClient("mongodb+srv://admin:###@cluster0.nknoe.mongodb.net/Cluster0?retryWrites=true&w=majority", tlsCAFile=certifi.where())
 # db = client.test
 db = client.gettingStarted
 people = db.people
